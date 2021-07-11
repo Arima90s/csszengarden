@@ -1,0 +1,127 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Georgia, serif;
+}
+
+#css-zen-garden {
+  background-color: #80A867;
+  padding-bottom: 3em;
+}
+
+.intro header {
+  background-color: #63864d;
+  color: black;
+  text-align: center;
+}
+.intro header h1 {
+  display: inline-block;
+  font-size: 3em;
+  margin: 0px 10px 0px 10px;
+  color: #49592a;
+}
+.intro header h2 {
+  font-size: 1.5em;
+  margin: 10px, 10px;
+  color: #c8d9be;
+}
+.intro header h2 abbr {
+  text-decoration: none;
+}
+
+.summary {
+  margin: 0px 100px 0px 100px;
+  text-align: left;
+}
+.summary a {
+  text-decoration: none;
+  color: #c8d9be;
+}
+.summary a:hover {
+  text-decoration: none;
+  color: #63864d;
+}
+.summary abbr {
+  text-decoration: none;
+}
+
+.preamble, .main {
+  margin: 0px 10px 0px 10px;
+  position: relative;
+  left: 2.5%;
+  right: 2.5%;
+  width: 95%;
+  margin-bottom: 10px;
+}
+.preamble h3, .main h3 {
+  text-align: center;
+  display: inline-block;
+  width: 20%;
+  border: 1px solid #80A867;
+  border-radius: 5em;
+  background-color: #c8d9be;
+  font-size: 1.25em;
+  margin: 10px 20px 10px 20px;
+  color: #49592a;
+}
+.preamble p, .main p {
+  font-size: 1em;
+}
+.preamble p a, .main p a {
+  text-decoration: none;
+  color: #c8d9be;
+}
+.preamble p a:hover, .main p a:hover {
+  text-decoration: none;
+  color: #63864d;
+}
+.preamble p abbr, .main p abbr {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+}
+.preamble footer a, .main footer a {
+  margin-top: 20px;
+  display: inline-block;
+  width: 18%;
+  border-radius: 10em;
+  border: 1px solid #80A867;
+  color: #c8d9be;
+  background-color: #63864d;
+  text-align: center;
+  font-size: 1.25em;
+  letter-spacing: 0.1em;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+.preamble footer a:hover, .main footer a:hover {
+  text-decoration: none;
+  color: #49592a;
+}
+
+.sidebar {
+  background-color: white;
+  position: inherit;
+}
+.sidebar h3 {
+  margin: 10px 20px 10px 20px;
+}
+.sidebar .wrapper {
+  width: 35%;
+  display: flex;
+  font-size: 0.95em;
+}
+.sidebar .wrapper a {
+  text-decoration: none;
+  color: #49592a;
+}
+.sidebar .wrapper a:hover {
+  text-decoration: none;
+  color: #80A867;
+}
+.sidebar abbr {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

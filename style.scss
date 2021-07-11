@@ -1,0 +1,150 @@
+$primary-color : white;
+$secondary-color : #63864d ;
+$third-color : #80A867;
+$fourth-color : #c8d9be;
+$header-matcha : #49592a;
+$text-color : black;
+
+body { 
+	margin: 0px;
+	padding: 0px;
+	font-family: Georgia, serif ;
+	}
+
+#css-zen-garden{
+	background-color: $third-color;
+	padding-bottom: 3em;
+}
+
+.intro header{
+	background-color: $secondary-color;
+	color: $text-color;
+	text-align: center;
+	
+	h1{
+		display: inline-block;
+		font-size: 3em;
+		margin: 0px 10px 0px 10px;
+		color: $header-matcha;
+		
+	}
+	h2{
+		font-size: 1.5em;
+		margin: 10px, 10px;
+		color: $fourth-color;
+		abbr{
+			text-decoration: none;
+		}
+	}
+}
+
+.summary{
+	margin: 0px 100px 0px 100px;
+	text-align: left;
+	a{
+		text-decoration: none;
+		color: $fourth-color;	
+	}
+	a:hover{
+		text-decoration: none;
+		color: $secondary-color;
+	}
+	abbr{
+		text-decoration: none;
+	}
+}
+
+.preamble,.main{
+	margin : 0px 10px 0px 10px;
+	position: relative;
+	left: 2.5%; 
+	right: 2.5%;
+	width: 95%;
+	h3{
+		text-align: center;
+		display: inline-block;
+		width: 20%;
+		border: 1px solid $third-color;
+		border-radius: 5em;
+		background-color: $fourth-color;
+		font-size: 1.25em;
+		margin: 10px 20px 10px 20px;
+		color: $header-matcha;
+	}
+	p{
+		font-size: 1em;
+
+		a{
+			text-decoration: none;
+			color: $fourth-color;
+		}
+
+		a:hover{
+		text-decoration: none;
+		color: $secondary-color;
+		}
+
+		abbr{
+			text-transform: uppercase;
+			text-decoration: none;
+			font-weight: bold;
+		}
+	}
+
+	footer a{
+		margin-top: 20px;
+        display: inline-block;
+        width: 18%;
+        border-radius: 10em;
+        border: 1px solid $third-color;
+        color: $fourth-color;
+        background-color: $secondary-color;
+        text-align: center;
+        font-size: 1.25em;
+        letter-spacing: 0.1em;
+        position: relative;
+        overflow: hidden;
+        text-decoration: none;
+	}
+
+	footer a:hover{
+		text-decoration: none;
+		color: $header-matcha;
+	}
+
+	margin-bottom: 10px;
+	
+
+}
+
+.sidebar{
+	background-color: $primary-color;
+	position: inherit;
+	h3{
+		margin: 10px 20px 10px 20px;
+	}
+
+	.wrapper{
+	width: 35%;
+	display: flex;
+	font-size: 0.95em;
+
+	a{
+		text-decoration: none;
+		color: $header-matcha;
+	}
+
+	a:hover{
+		text-decoration: none;
+		color: $third-color;
+		}
+	}
+
+	abbr{
+		text-decoration: none;
+	}
+}
+
+
+
+
